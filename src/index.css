@@ -1,13 +1,153 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: scroll;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.createEmployee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120vh;
+  background-color: #bed9ec;
+}
+
+section {
+  text-align: center;
+  padding: 2rem;
+}
+
+section a {
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(158, 206, 239);
+  gap: 2rem;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+.form-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin: 0.3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  width: 160px;
+}
+
+fieldset {
+  padding: 2rem;
+}
+
+.Dropdown-control {
+  height: 35px;
+  background-color: #f6f6f6;
+}
+
+.Dropdown-placeholder {
+  position: absolute;
+  align-items: center;
+}
+
+.form-submitBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.form-submitBtn input {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid black;
+  height: 30px;
+  width: 120px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  background-color: #bed9ec;
+}
+
+
+.home-return {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.main-error {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+}
+
+.error-nbr {
+  font-size: 300px;
+  font-weight: bolder;
+  color: rgb(158, 206, 239);
+}
+
+.error-oups {
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.error-return {
+  margin-top: 100px;
+  color: rgb(158, 206, 239);
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.modal-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 45vh;
+}
+
+.modal {
+  width: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(236, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
