@@ -9,7 +9,6 @@ import states from "../mock/states";
 import departments from "../mock/departments";
 import { addEmployee } from "../features/slice";
 import { formatDate } from "../utils/formatDate";
-// import Modal from "../components/Modal"
 import Modal from "ocr-p14-modal"
 
 
