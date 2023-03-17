@@ -33,7 +33,7 @@ section {
 }
 
 section a {
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 form {
@@ -101,7 +101,7 @@ fieldset {
 
 
 .home-return {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: black;
   font-size: 30px;
 }
