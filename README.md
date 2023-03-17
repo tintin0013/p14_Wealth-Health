@@ -28,3 +28,9 @@ Migrer une application web interne qui utilise jQuery côté front end vers une 
 - Date-picker (src : https://www.npmjs.com/package/react-datepicker )
 - React table (src : https://www.material-react-table.com)
 
+
+# Installation
+
+- Cloner le repository
+- Installer  les dépendances ( `npm install`)
+- Lancer le projet front-end (`npm start`)
