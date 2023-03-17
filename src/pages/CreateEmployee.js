@@ -9,7 +9,8 @@ import states from "../mock/states";
 import departments from "../mock/departments";
 import { addEmployee } from "../features/slice";
 import { formatDate } from "../utils/formatDate";
-import Modal from "../components/Modal"
+// import Modal from "../components/Modal"
+import Modal from "ocr-p14-modal"
 
 
 const CreateEmployee = () => {
@@ -126,7 +127,7 @@ const CreateEmployee = () => {
 					<input type="submit" onClick={handleSave} />
 				</div>
 			</form>
-            {isModalVisible && ( <Modal message={"User Created Successfully"} onClose={handleClosing}/>
+            {isModalVisible && ( <Modal message="User Created Successfully" onClose={handleClosing}/>
 			)}
 		</div>
 	);

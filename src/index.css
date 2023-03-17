@@ -133,7 +133,7 @@ fieldset {
   font-size: 26px;
 }
 
-.modal-container {
+/* .modal-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -150,4 +150,4 @@ fieldset {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */

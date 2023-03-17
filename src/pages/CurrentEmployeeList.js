@@ -4,7 +4,7 @@ import MaterialReactTable from "material-react-table";
 import { useSelector } from "react-redux";
 
 const CurrentEmployeeList = () => {
-	const employees = useSelector((state) => state.employee.employees);
+	const employees = useSelector((state) => state.employee.employees); 
 
 	const columns = useMemo(
 		() => [

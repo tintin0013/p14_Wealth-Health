@@ -1,18 +1,18 @@
 
 
-const Modal = ({ message, onClose }) => {
+// const Modal = ({ message, onClose }) => {
 
-    return (
-        <div className="modal-container">
+//     return (
+//         <div className="modal-container">
 
-            <div className="modal">
+//             <div className="modal">
 
-                <p>{message}</p>
-                <button className="closeButton" onClick={onClose}>Close</button>
+//                 <p>{message}</p>
+//                 <button className="closeButton" onClick={onClose}>Close</button>
 
-            </div>
-        </div>
-    )
-}
+//             </div>
+//         </div>
+//     ) 
+// }
 
-export default Modal
+// export default Modal
