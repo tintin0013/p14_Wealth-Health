@@ -32,10 +32,6 @@ section {
   padding: 2rem;
 }
 
-section a {
-  /* text-decoration: none; */
-}
-
 form {
   display: flex;
   flex-direction: column;
